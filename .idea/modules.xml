@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/okctl-k8s-app-template.iml" filepath="$PROJECT_DIR$/.idea/okctl-k8s-app-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kafka-go-test.iml" filepath="$PROJECT_DIR$/.idea/kafka-go-test.iml" />
     </modules>
   </component>
 </project>
