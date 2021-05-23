@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dbd9c8b-6f30-4666-be27-08b1ccaa02cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/test1/run_simple.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/test4/run_full.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/test1/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test1/run_complicated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/test2/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test2/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/test3/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test3/run.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///snap/go/7360" />
   <component name="Git.Settings">
@@ -36,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -43,20 +55,33 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pkg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pkg/test1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/test1" />
       <recent name="$PROJECT_DIR$/pkg" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/test4" />
       <recent name="$PROJECT_DIR$/pkg/dial" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="kafka-go-test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,7 +106,11 @@
       <option name="presentableId" value="Default" />
       <updated>1618645348026</updated>
       <workItem from="1618645349327" duration="2099000" />
-      <workItem from="1618813626461" duration="608000" />
+      <workItem from="1618813626461" duration="1200000" />
+      <workItem from="1619247304043" duration="2204000" />
+      <workItem from="1619543177896" duration="3232000" />
+      <workItem from="1619588959875" duration="1264000" />
+      <workItem from="1621755040128" duration="1357000" />
     </task>
     <servers />
   </component>
@@ -90,5 +119,15 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/test4/run_full.go</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,9 +5,12 @@ import (
 	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
 
+const address = "b-1.yk-msk-2.tjvstm.c6.kafka.eu-west-1.amazonaws.com:9092"
+
 func Run() {
 	c, err := kafka.NewConsumer(&kafka.ConfigMap{
-		"bootstrap.servers": "localhost",
+		"bootstrap.servers": address,
+		//"bootstrap.servers": "localhost",
 		"group.id":          "myGroup",
 		"auto.offset.reset": "earliest",
 	})
@@ -16,7 +19,10 @@ func Run() {
 		panic(err)
 	}
 
-	c.SubscribeTopics([]string{"myTopic", "^aRegex.*[Tt]opic"}, nil)
+	err = c.SubscribeTopics([]string{"myTopic", "^aRegex.*[Tt]opic"}, nil)
+	if err != nil {
+	    panic(err)
+	}
 
 	for {
 		msg, err := c.ReadMessage(-1)

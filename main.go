@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/yngvark/kafka-go-test/pkg/test3"
+	"github.com/yngvark/kafka-go-test/pkg/test4"
 )
 
 func main() {
-	fmt.Printf("Running")
-	//test1.Run()
+	fmt.Println("Running")
+	//test1.RunComplicated()
 	//test2.Run()
-	test3.Run()
+	//test3.Run()
+	test4.Run()
 }

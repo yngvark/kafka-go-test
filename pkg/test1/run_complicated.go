@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func Run() {
+func RunComplicated() {
 	dialProduce()
 	consume()
 }
@@ -65,7 +65,11 @@ func dialNonLeader(topic string, partition int) (*kafka.Conn, error) {
 }
 
 func dialLeader(topic string, partition int) (*kafka.Conn, error) {
-	conn, err := kafka.DialLeader(context.Background(), "tcp", "localhost:9092", topic, partition)
+	//address := "b-1.yktest.5u4cj8.c6.kafka.eu-west-1.amazonaws.com:9092"
+	//address := "b-1.yk-msk-2.tjvstm.c6.kafka.eu-west-1.amazonaws.com:9092"
+	//address := "b-1.yk-msk-2.tjvstm.c6.kafka.eu-west-1.amazonaws.com:9092"
+	address := "localhost:9092"
+	conn, err := kafka.DialLeader(context.Background(), "tcp", address, topic, partition)
 	if err != nil {
 		log.Fatal("failed to dial leader:", err)
 	}

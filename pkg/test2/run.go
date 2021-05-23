@@ -15,9 +15,11 @@ func Run() {
 // the topic and broker address are initialized as constants
 const (
 	topic          = "message-log"
-	broker1Address = "localhost:9093"
-	broker2Address = "localhost:9092"
-	broker3Address = "localhost:9095"
+	//broker1Address = "localhost:9093"
+	//broker2Address = "localhost:9092"
+	//broker3Address = "localhost:9095"
+	broker1Address = "b-1.yk-msk-2.tjvstm.c6.kafka.eu-west-1.amazonaws.com:9092"
+	broker2Address = "b-2.yk-msk-2.tjvstm.c6.kafka.eu-west-1.amazonaws.com:9092"
 )
 
 func produce(ctx context.Context) {
@@ -26,7 +28,8 @@ func produce(ctx context.Context) {
 
 	// intialize the writer with the broker addresses, and the topic
 	w := kafka.NewWriter(kafka.WriterConfig{
-		Brokers: []string{broker1Address, broker2Address, broker3Address},
+		//Brokers: []string{broker1Address, broker2Address, broker3Address},
+		Brokers: []string{broker1Address, broker2Address},
 		Topic:   topic,
 	})
 
