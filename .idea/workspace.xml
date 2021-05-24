@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dbd9c8b-6f30-4666-be27-08b1ccaa02cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/test1/run_simple.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/test4/run_full.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/test1/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test1/run_complicated.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/test2/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test2/run.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/test3/run.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/test3/run.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +64,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="kafka-go-test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -111,6 +93,7 @@
       <workItem from="1619543177896" duration="3232000" />
       <workItem from="1619588959875" duration="1264000" />
       <workItem from="1621755040128" duration="1357000" />
+      <workItem from="1621838807834" duration="2000" />
     </task>
     <servers />
   </component>
